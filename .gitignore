@@ -1,0 +1,38 @@
+# 환경 변수 파일
+.env
+.env.local
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# 가상환경
+venv/
+env/
+
+# IDE 파일
+.vscode/
+.idea/
+*.swp
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+
+# 스트리밍 관련 파일
+*.mp4
+*.avi
+recordings/
+
+# 인증 파일
+client_secrets.json
+credentials.json
+token.pickle
